@@ -1,0 +1,3 @@
+from core.serializers.serializers_advertisement import AdvertisementSerializer
+from core.serializers.serializers_realty import RealtySerializer
+from core.serializers.serializers_reservation import ReservationSerializer

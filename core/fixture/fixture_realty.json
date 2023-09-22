@@ -1,0 +1,72 @@
+[
+  {
+    "model": "core.realty",
+    "pk": 1,
+    "fields": {
+      "code_realty": "ABCD001",
+      "guest_limit": 4,
+      "bathroom_count": 2,
+      "accepts_pets": true,
+      "cleaning_fee": 150.50,
+      "activation_date": "2023-01-01",
+      "created_at": "2023-01-01T12:00:00Z",
+      "updated_at": "2023-01-01T12:00:00Z"
+    }
+  },
+  {
+    "model": "core.realty",
+    "pk": 2,
+    "fields": {
+      "code_realty": "ABCD002",
+      "guest_limit": 5,
+      "bathroom_count": 3,
+      "accepts_pets": false,
+      "cleaning_fee": 175.00,
+      "activation_date": "2023-01-10",
+      "created_at": "2023-01-10T12:00:00Z",
+      "updated_at": "2023-01-10T12:00:00Z"
+    }
+  },
+  {
+    "model": "core.realty",
+    "pk": 3,
+    "fields": {
+      "code_realty": "ABCD003",
+      "guest_limit": 6,
+      "bathroom_count": 1,
+      "accepts_pets": true,
+      "cleaning_fee": 120.50,
+      "activation_date": "2023-01-15",
+      "created_at": "2023-01-15T12:00:00Z",
+      "updated_at": "2023-01-15T12:00:00Z"
+    }
+  },
+  {
+    "model": "core.realty",
+    "pk": 4,
+    "fields": {
+      "code_realty": "ABCD004",
+      "guest_limit": 3,
+      "bathroom_count": 2,
+      "accepts_pets": false,
+      "cleaning_fee": 130.00,
+      "activation_date": "2023-01-20",
+      "created_at": "2023-01-20T12:00:00Z",
+      "updated_at": "2023-01-20T12:00:00Z"
+    }
+  },
+  {
+    "model": "core.realty",
+    "pk": 5,
+    "fields": {
+      "code_realty": "ABCD005",
+      "guest_limit": 2,
+      "bathroom_count": 1,
+      "accepts_pets": false,
+      "cleaning_fee": 150.00,
+      "activation_date": "2023-02-20",
+      "created_at": "2023-02-20T12:00:00Z",
+      "updated_at": "2023-02-20T12:00:00Z"
+    }
+  }
+]
