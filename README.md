@@ -53,6 +53,7 @@ This is a project developed with Python and Django Rest Framework. This project 
     docker-compose exec backend python manage.py createsuperuser
     ```
 
+
 The system should now be running at `http://localhost:8000/`.
 
 ## Local Setup
@@ -83,14 +84,19 @@ The system should now be running at `http://localhost:8000/`.
     python manage.py makemigrations
     ```
 
-5. Apply the migrations:
+6. Apply the migrations:
     ```bash
     python manage.py migrate
     ```
 
-6. Start the development server:
+7. Start the development server:
     ```bash
     python manage.py runserver
+    ```
+
+8. Start the development server:
+    ```bash
+    python manage.py createsuperuser
     ```
 
 The system should now be running at `http://localhost:8000/`.
@@ -101,9 +107,11 @@ The project includes fixtures to help populate the database with initial data.
 
 To load this data into the database, run:
 
+```bash
 1. python manage.py loaddata core/fixture/fixture_realty.json
 2. python manage.py loaddata core/fixture/fixture_advertisement.json
 3. python manage.py loaddata core/fixture/fixture_reservation.json
+```
 
 ## Testing
 
@@ -121,4 +129,3 @@ The available endpoints in the API can be viewed using the following documentati
 
 - [Swagger UI](http://127.0.0.1:8000/swagger/)
 - [ReDoc](http://127.0.0.1:8000/redoc/)
-
