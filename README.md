@@ -30,7 +30,7 @@ This is a project developed with Python and Django Rest Framework. This project 
 
 2. Navigate to the project directory:
     ```
-    cd khanto-property-system
+    cd Seazone_Code_Challenge
     ```
 
 3. Build and run the Docker containers:
